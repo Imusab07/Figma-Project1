@@ -9,7 +9,7 @@ body {
 header {
   display: flex;
   justify-content: space-between;
-  align-items: left;
+  align-items: center;
   background-color: #fff;
   padding: 15px 40px;
   border-bottom: 2px solid #000;
@@ -19,6 +19,7 @@ header {
     width: 50px;
     height: 50px;
     align-items: left ;
+    align-self: left;
 
   
   
@@ -34,10 +35,12 @@ nav ul li a {
   text-decoration: none;
   color: black;
   font-weight: bold;
+  text-align: center;
 }
 
 nav ul li a:hover {
   text-decoration: underline;
+  text-align: center;
 }
 
 /* Hero Section */
@@ -73,6 +76,11 @@ nav ul li a:hover {
 .what-we-do {
   text-align: center;
   padding: 40px 20px;
+
+
+  .explore{
+    text-align: center;
+  }
 }
 
 .what-we-do h2 {
@@ -82,7 +90,7 @@ nav ul li a:hover {
   margin-bottom: 30px;
   text-align: center;
   
-  .header {
+  .content h2 {
     text-align: center;}
 }
 
@@ -92,7 +100,10 @@ nav ul li a:hover {
   padding: 120px 20px;
   font-size: 20px;
   font-weight: bold;
-  align-items: center;
+  text-align: center;
+  align-self:center;
+  h2 {
+    text-align: center;}
 }
 
 .explore {
@@ -165,7 +176,7 @@ footer {
 .footer-right {
   background-color: black;
   color: white;
-  padding: 20px;
+  padding: 10px;
 }
 
 .footer-right input {
